@@ -123,3 +123,9 @@ p {
   object-fit: cover;
   object-position: center;
 }
+
+@media (max-width: 576px) {
+  .haha {
+    margin-left: 220px !important;
+  }
+}
