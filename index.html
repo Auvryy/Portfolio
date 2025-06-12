@@ -12,8 +12,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
-<body class="container body">
-  <header class="col-lg-8 col-md-12">
+<body class="container body p-md-1 px-5">
+  <header class="col-lg-8 col-sm-12 col-12">
     <ul class="d-flex align-items-center justify-content-start list-unstyled gap-3 fs-6">
       <li class="cursor-pointer opacity-1">Home</li>
       <hr class="header-hr">
@@ -22,9 +22,9 @@
       <li class="cursor-pointer opacity-1">Contacts</li>
     </ul>
   </header>
-  <main class="col-lg-8 col-md-12 col-12 mt-5 d-flex flex-column justify-content-center">
-    <section class="d-flex justify-content-between">
-      <div class="d-flex flex-column justify-content-start">
+  <main class="col-lg-8 col-sm-12 mt-5 d-flex align-items-center flex-column">
+    <section class="col-12 d-flex justify-content-between">
+      <div class="col-md-6 d-flex flex-column justify-content-start">
         <h1 class="fw-bold fs-1">Andy Sarne</h1>
         <p class="fs-5 m-0 opacity-75">Front-End Developer</p>
         <p class="fs-5 m-0 opacity-75">Content Creator</p>
@@ -32,12 +32,12 @@
           <i class="fa-solid fa-location-dot m-0"></i>
           <p class="m-0">Victoria, Laguna</p>
         </div>
-        <div class="d-flex align-items-center gap-2 mt-3">
-          <button class="resume-button d-flex gap-2 align-items-center">
+        <div class="col-md-6 col-12 d-flex align-items-center gap-2 mt-3">
+          <button class=" resume-button d-flex gap-2 align-items-center">
             <i class="resume-icon fa-solid fa-file"></i>
             Resume
           </button>
-          <div class="d-flex align-items-center gap-3">
+          <div class=" col-md-6 col-12 d-flex align-items-center gap-3">
             <i class="fa-brands fa-linkedin icons"></i>
             <i class="fa-brands fa-square-x-twitter icons"></i>
             <i class="fa-brands fa-square-facebook icons"></i>
@@ -46,12 +46,12 @@
           </div>
         </div>
       </div>
-      <div class="d-flex justify-content-end">
+      <div class="col-6 d-none d-md-flex justify-content-end">
         <img src=".\assets\Images\Andy.png" class="Andy">
       </div>
     </section>
-    <section class="mt-5 mb-2"> <!--Work and Experience Navigation-->
-      <div class="nav-experience d-flex align-items-center rounded-2 p-2">
+    <section class="col-12 mt-5 mb-2"> <!--Work and Experience Navigation-->
+      <div class="nav-experience w-100 d-flex align-items-center rounded-2 p-2">
         <div class="nav-work col-6 col-md-6 rounded-1 p-1 d-flex align-items-center justify-content-center cursor-pointer">
           <p class="m-0 fw-semibold cursor-pointer">Work</p>
         </div>
@@ -61,7 +61,7 @@
       </div>
     </section>
     <section class="col-12 d-flex align-items-center container border rounded-2 position-relative ">
-      <div class="d-flex row">
+      <div class="d-flex">
         <div class="d-flex col-5 align-items-start justify-content-center" >
          <hr class="experience-hr h-100">
         </div>
@@ -84,12 +84,8 @@
           </div>
         </div>
       </div>
-      
     </section>
   </main>
-
-
-  
   <script src=".\js\script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
