@@ -115,7 +115,7 @@ p {
 }
 
 .experience-logo {
-  left: 15px;
+  left: 20px;
   border: 1px solid #ECECFF;;
   position: absolute;
   width: 60px;
@@ -127,5 +127,6 @@ p {
 @media (max-width: 576px) {
   .haha {
     margin-left: 220px !important;
+    margin-right: -50px !important;
   }
 }
